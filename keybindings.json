@@ -16,7 +16,6 @@
         "key": "ctrl+j",
         "command": "workbench.action.navigateDown"
     },
-
     // switch between open files
     {
         "key": "shift+h",
@@ -27,25 +26,5 @@
         "key": "shift+l",
         "command": "workbench.action.nextEditor",
         "when": "editorTextFocus"
-    },
-
-    // run current spec file
-    {
-        "key": "space t f",
-        "command": "workbench.action.terminal.sendSequence",
-        "args": {
-            "text": "RUBYOPT=-W0 bundle exec rspec ${relativeFile}\n"
-        },
-        "when": "editorLangId == ruby && resourcePath =~ /\/spec\//"
-    },
-
-    // run spec at current line number
-    {
-        "key": "space t n",
-        "command": "workbench.action.terminal.sendSequence",
-        "args": {
-            "text": "RUBYOPT=-W0 bundle exec rspec ${relativeFile}:${lineNumber}\n"
-        },
-        "when": "editorLangId == ruby && resourcePath =~ /\/spec\//"
     },
 ]

@@ -1,3 +1,60 @@
 {
     "workbench.colorTheme": "Tokyo Night",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      },
+      {
+        "before": ["<leader>", "t", "f"],
+        "commands": [
+          {
+            "command": "workbench.action.terminal.sendSequence",
+            "args": {
+              "text": "RUBYOPT=-W0 bundle exec rspec ${relativeFile}\n"
+            }
+          }
+        ]
+      },
+      {
+        "before": ["<leader>", "t", "n"],
+        "commands": [
+          {
+            "command": "workbench.action.terminal.sendSequence",
+            "args": {
+              "text": "RUBYOPT=-W0 bundle exec rspec ${relativeFile}:${lineNumber}\n"
+            }
+          }
+        ]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "extensions.experimental.affinity": {
+      "vscodevim.vim": 1
+    }
+
 }
