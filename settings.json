@@ -21,6 +21,16 @@
       "before": [
         "<leader>",
         "b",
+        "o"
+      ],
+      "commands": [
+        "workbench.action.closeOtherEditors"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "b",
         "d"
       ],
       "commands": [
