@@ -20,6 +20,16 @@
     {
       "before": [
         "<leader>",
+        "b",
+        "d"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditor"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
         "d"
       ],
       "after": [
