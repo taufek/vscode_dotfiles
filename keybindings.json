@@ -27,4 +27,14 @@
         "command": "workbench.action.nextEditor",
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+a z",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+a z",
+        "command": "workbench.action.togglePanel",
+        "when": "!terminalFocus"
+    }
 ]
