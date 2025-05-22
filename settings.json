@@ -19,8 +19,13 @@
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "e"],
-      "commands": ["workbench.view.explorer"]
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
     },
     {
       "before": [
@@ -88,6 +93,21 @@
         "lineBreakInsert"
       ],
       "silent": true
+    },
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "f"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "RUBYOPT=-W0 bundle exec rubocop -c .rubocop_hound.yml ${relativeFile}\n"
+          }
+        }
+      ]
     },
     {
       "before": [
