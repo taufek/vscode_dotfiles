@@ -1,4 +1,5 @@
 {
+  "files.eol": "\n",
   "workbench.colorTheme": "Tokyo Night",
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -17,6 +18,16 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
     {
       "before": [
         "<leader>",
