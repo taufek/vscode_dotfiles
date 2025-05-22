@@ -21,6 +21,16 @@
     {
       "before": [
         "<leader>",
+        "s",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.findInFiles"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
         "f",
         "f"
       ],
