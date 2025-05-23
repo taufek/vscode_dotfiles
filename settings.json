@@ -159,6 +159,22 @@
     },
     {
       "before": [
+        "<S-h>"
+      ],
+      "commands": [
+        "workbench.action.previousEditor"
+      ]
+    },
+    {
+      "before": [
+        "<S-l>"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
         "<leader>",
         "h"
       ],
