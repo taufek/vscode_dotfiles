@@ -20,6 +20,23 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    // {
+    //   "before": [
+    //     "<leader>",
+    //     "t",
+    //     "s"
+    //   ],
+    //   "commands": [
+    //     {
+    //       "command": "editor.action.trimTrailingWhitespace",
+    //       "when": "editorTextFocus && !editorReadonly"
+    //     },
+    //     {
+    //       "command": "workbench.action.files.save",
+    //       "when": "editorTextFocus && !editorReadonly"
+    //     }
+    //   ]
+    // },
     {
       "before": [
         "<leader>",
@@ -209,5 +226,6 @@
   "ruby.useLanguageServer": true,
   "ruby.intellisense": "rubyLocate",
   "editor.formatOnSave": true,
-  "editor.formatOnType": true
+  "editor.formatOnType": true,
+  "files.trimTrailingWhitespace": true
 }
