@@ -1,5 +1,7 @@
 {
   "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "workbench.colorTheme": "Tokyo Night",
   "vim.easymotion": true,
   "vim.incsearch": true,
