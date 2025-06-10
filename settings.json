@@ -23,6 +23,19 @@
     {
       "before": [
         "<leader>",
+        "g",
+        "B"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen",
+          "args": ">GitHub: Browse File"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
         "e"
       ],
       "commands": [
