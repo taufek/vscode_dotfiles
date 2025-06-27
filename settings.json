@@ -236,5 +236,16 @@
   "ruby.intellisense": "rubyLocate",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "vscode-next",
+    "docker-desktop"
+  ],
+  "git.blame.editorDecoration.enabled": false
 }
