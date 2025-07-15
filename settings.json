@@ -247,5 +247,9 @@
     "vscode-next",
     "docker-desktop"
   ],
-  "git.blame.editorDecoration.enabled": false
+  "git.blame.editorDecoration.enabled": false,
+  "explorer.confirmDelete": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.linuxExec": "iterm",
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace"
 }
